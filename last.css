@@ -25,6 +25,7 @@ footer, header, hgroup, menu, nav, section {
   display: block;
 }
 body {
+  font-family: 'Baloo Bhai 2', cursive;
   line-height: 1;
 }
 ol, ul {
@@ -43,12 +44,9 @@ table {
   border-spacing: 0;
 }
 
-
-
-
-
-
-
+body {
+  font-family: 'Baloo Bahina 2', cursive;
+}
 
 .topnav {
   overflow: hidden;
