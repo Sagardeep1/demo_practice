@@ -48,7 +48,9 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-
+.contactLink{
+  color: #5494d8;
+}
 .topnav {
   overflow: hidden;
   background-color: #353849F2;
@@ -251,7 +253,7 @@ body {
 footer {
   width: 100%;
   background-color: black;
-  color: red;
+  color: #c68080;
   font-size: 35px;
   padding-top: 20px;
   text-align: center;
