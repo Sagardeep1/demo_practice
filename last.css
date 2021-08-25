@@ -10,7 +10,7 @@ fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed, 
 figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
+menu, output, ruby, section, summary,
 time, mark, audio, video {
   margin: 0;
   padding: 0;
@@ -47,8 +47,19 @@ table {
 }
 
 
+.nav-item{
+  padding-left: 10px;
+  padding-right: 10px;
+}
 
-.topnav {
+.logo{
+  font-size: 1.25rem;
+  text-transform: capitalize;
+  text-shadow: #2e3141;
+  font-weight: bolder;
+}
+
+/* .topnav {
   overflow: hidden;
   background-color: #353849F2;
 }
@@ -81,7 +92,7 @@ table {
   text-align: center;
   padding: 14px 16px;
   font-size: 21px;
-}
+} */
 
 
 .is-preload .tnav {
