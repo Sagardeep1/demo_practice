@@ -9,24 +9,33 @@
     <link rel="icon" href="images/cuc.png" type="image/gif">
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-</head>
+    
+  </head>
 
 <body>
-  pnn
 
 <nav class="topnav">
-
+<div class="corner">
+<img src="logo.jpeg" alt="" srcset="">
+</div>
     <ul>
-        <a class="corner" href="/">CUC</a>
+        <!-- <a class="corner" href="/">CUC</a> -->
+       
+        <li><input type="text" placeholder="Search Project " > 
+        <img src="magnifying-glass-1976105_640.png" alt="" srcset="">
+        </li>
         <li><a href="./support">Support</a></li>
         <li><a href="/about">About</a></li>
 
-        <li><a class="active"  href="./">Projects</a></li>
+        <li>
+          <a href="/">Projects</a>
+ </li>
         <li><a href="/">Home</a></li>
+       
     </ul>
 </nav>
 <div class="all">
-    
+ 
 
 
 
@@ -34,11 +43,11 @@
 
 
 
- <h1   style="font-family: 'Courier New', monospace;margin-top:1em;font-size:38px"  align='center' >Name Of The Field</h1>
+ <h1   style="font-family: 'Baloo Bhai',cursive"  monospace; margin-top:4em;font-size:38px"  align='center' >Name Of The Field</h1>
                 </br>
 
                 <button type="button" class="collapsible">{{dt.title}}</button>
-                            <div  class="contentt" >
+                            <div id="myDropdown" class="contentt" >
                               <ul>
                                 <li> <b> Description: </b> {{dt.desc}} </li>
                                 </br>
@@ -59,8 +68,13 @@
                                   </li>
 
                                 </br>
+                                  
 
                                   <li><b>Output : </b>{{dt.outp}}</li>
+                                  <br>
+                                  
+
+                                  <li><b>Technologies used : </b>{{dt.outp}}</li>
 
                                 </br>
                                 <li><b>Project by : </b><a href="mailto: {{dt.email}}" target="_blank" style="color:white">{{dt.name}}</a></li>
@@ -189,8 +203,13 @@ for (i = 0; i < coll.length; i++) {
     }
   });
 }
+
+
+
+
     </script>
 </body>
 
 
 </html>
+
