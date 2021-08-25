@@ -127,7 +127,7 @@ table {
  }
 body{
         background-color: #2e3141;
-		background-image: -webkit-linear-gradient(top,#7a74ed,#2b54b3);
+		background-image: -webkit-linear-gradient(top,#f9f9fd,#5b64a2);
 		background-size: auto,cover;
 		background-attachment: fixed,fixed;
 		background-position: center, center;
